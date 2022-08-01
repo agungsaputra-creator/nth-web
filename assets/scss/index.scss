@@ -1,0 +1,153 @@
+.banner {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url("/assets/images/home-banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  @media only screen and (max-width: 810px) {
+    height: 50vh;
+  }
+  @media only screen and (max-width: 768px) {
+    height: 100vh;
+  }
+  @media only screen and (max-width: 414px) {
+    height: 50vh;
+  }
+
+  .banner-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .gelato {
+      display: flex;
+      width: 30%;
+      justify-content: space-between;
+      margin-top: -30px;
+      @media only screen and (max-width: 768px) {
+        width: 40%;
+      }
+      @media only screen and (max-width: 414px) {
+        width: 70%;
+      }
+
+      .gelato-1,
+      .gelato-2 {
+        width: 120px;
+        height: auto;
+        object-fit: contain;
+        @media only screen and (max-width: 992px) {
+          width: 80px;
+        }
+        @media only screen and (max-width: 768px) {
+          width: 60px;
+        }
+      }
+
+      .gelato-1 {
+        -ms-transform: rotate(-20deg);
+        transform: rotate(-20deg);
+      }
+
+      .gelato-2 {
+        -ms-transform: rotate(20deg);
+        transform: rotate(20deg);
+      }
+    }
+
+    .animation {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      width: 100%;
+    }
+  }
+}
+
+.perfect-pints {
+  width: 100%;
+  height: 654px;
+  position: relative;
+  background-image: url("/assets/images/home-pints.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  @media only screen and (max-width: 992px) {
+    height: auto;
+  }
+}
+
+.home-wonder {
+  width: 100%;
+  height: 870px;
+  position: relative;
+  background-image: url("/assets/images/home-wonder.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  @media only screen and (max-width: 992px) {
+    height: auto;
+  }
+
+  .wonder-animation {
+    width: 45%;
+    @media only screen and (max-width: 992px) {
+      width: 70%;
+    }
+    @media only screen and (max-width: 576px) {
+      width: 40%;
+      display: block;
+      margin: auto;
+    }
+  }
+}
+
+.testimony {
+  background-color: #a3b18a;
+
+  .testy-animation {
+    @media only screen and (max-width: 768px) {
+      width: 30%;
+    }
+  }
+}
+
+.modal-content {
+  background-color: transparent !important;
+  border: none !important;
+  .modal-home {
+    background-image: url("/assets/images/popup-home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 42px;
+    padding: 60px 0;
+    .title-modal {
+      font-size: 65px;
+      text-align: center;
+      line-height: 35px;
+      @media only screen and (max-width: 768px) {
+        font-size: 50px;
+      }
+      @media only screen and (max-width: 414px) {
+        font-size: 40px;
+      }
+      span {
+        font-size: 50px;
+        @media only screen and (max-width: 768px) {
+          font-size: 35px;
+        }
+        @media only screen and (max-width: 414px) {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+}

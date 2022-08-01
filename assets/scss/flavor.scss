@@ -1,0 +1,212 @@
+#flavor {
+  background-color: #cddcb3;
+  position: relative;
+}
+
+.card-flavor {
+  position: relative;
+  height: auto;
+  margin: auto;
+  width: 270px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  cursor: pointer;
+  @media only screen and (max-width: 992px) {
+    width: 240px;
+  }
+  @media only screen and (max-width: 810px) {
+    width: 180px;
+    margin-bottom: 30px;
+  }
+  @media only screen and (max-width: 576px) {
+    width: 130px;
+    margin-bottom: 30px;
+  }
+  img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 47px;
+    @media only screen and (max-width: 810px) {
+      border-radius: 27px;
+    }
+  }
+  .food-desc {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #50b948;
+    border-radius: 0px 0px 27px 27px;
+    padding: 13px 0;
+    @media only screen and (max-width: 576px) {
+      padding: 8px 0;
+    }
+    p {
+      font-size: 18px;
+      text-align: center;
+      @media only screen and (max-width: 576px) {
+        font-size: 12px;
+      }
+      @media only screen and (max-width: 414px) {
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+.icon-flavor-1 {
+  position: absolute;
+  top: 17%;
+  left: 5%;
+  @media only screen and (max-width: 992px) {
+    left: 2%;
+    width: 60px;
+  }
+}
+.icon-flavor-2 {
+  position: absolute;
+  right: 3%;
+  top: 13%;
+  @media only screen and (max-width: 992px) {
+    top: 15%;
+    width: 60px;
+  }
+}
+.icon-flavor-3 {
+  position: absolute;
+  top: 60%;
+  left: 5%;
+  @media only screen and (max-width: 992px) {
+    top: 67%;
+    left: 3%;
+    width: 80px;
+  }
+  @media only screen and (max-width: 576px) {
+    top: 62%;
+    left: 3%;
+    width: 70px;
+  }
+  @media only screen and (max-width: 414px) {
+    top: 71%;
+    left: 3%;
+    width: 60px;
+  }
+}
+.icon-flavor-4 {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  @media only screen and (max-width: 992px) {
+    width: 80px;
+    left: 16%;
+  }
+  @media only screen and (max-width: 414px) {
+    width: 60px;
+    left: 10%;
+  }
+}
+.icon-flavor-5 {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  @media only screen and (max-width: 992px) {
+    width: 80px;
+    bottom: 13%;
+    right: 13%;
+  }
+  @media only screen and (max-width: 414px) {
+    width: 60px;
+    bottom: 9%;
+    right: 8%;
+  }
+}
+
+.btn-flavor {
+  background-color: #6a794e;
+  color: #fff;
+  border-radius: 36px;
+  padding: 8px 34px;
+  &:hover {
+    color: #fff;
+    font-weight: 600;
+  }
+}
+
+.flavor-slick {
+  position: relative;
+  height: auto !important;
+  .prev_arrow {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    -webkit-transform: translate(0, -60%);
+    transform: translate(0, -60%);
+    cursor: pointer;
+    background: #ffc567;
+    z-index: 9;
+    border-radius: 12px;
+    width: 40px;
+    height: 69px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    line-height: 69px;
+    align-items: center;
+    @media only screen and (max-width: 992px) {
+      transform: translate(0, -90%);
+      width: 20px;
+      height: 49px;
+      font-size: 20px;
+    }
+    @media only screen and (max-width: 810px) {
+      transform: translate(0, -50%);
+    }
+    @media only screen and (max-width: 576px) {
+      width: 40px;
+      height: 69px;
+      font-size: 40px;
+    }
+  }
+  .next_arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    -webkit-transform: translate(0, -60%);
+    transform: translate(0, -60%);
+    cursor: pointer;
+    background: #ffc567;
+    z-index: 9;
+    border-radius: 12px;
+    width: 40px;
+    height: 69px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    line-height: 69px;
+    align-items: center;
+    @media only screen and (max-width: 992px) {
+      transform: translate(0, -90%);
+      width: 20px;
+      height: 49px;
+      font-size: 20px;
+    }
+    @media only screen and (max-width: 810px) {
+      transform: translate(0, -50%);
+    }
+    @media only screen and (max-width: 576px) {
+      width: 40px;
+      height: 69px;
+      font-size: 40px;
+    }
+  }
+
+  .slide-table {
+    height: 605px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media only screen and (max-width: 992px) {
+      height: 427px !important;
+    }
+  }
+}

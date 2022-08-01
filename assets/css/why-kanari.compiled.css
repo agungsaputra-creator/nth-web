@@ -1,0 +1,207 @@
+#why-kenari {
+  background-color: #dad7cd;
+}
+
+.video-kanari {
+  height: 542px;
+  width: 960px;
+  margin: auto;
+}
+@media only screen and (max-width: 992px) {
+  .video-kanari {
+    width: auto;
+    height: auto;
+  }
+}
+.video-kanari img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.icon-kanari-1 {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+}
+@media only screen and (max-width: 992px) {
+  .icon-kanari-1 {
+    top: 8%;
+  }
+}
+@media only screen and (max-width: 810px) {
+  .icon-kanari-1 {
+    width: 110px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .icon-kanari-1 {
+    width: 60px;
+    top: 16%;
+    left: 13%;
+  }
+}
+
+.icon-kanari-2 {
+  position: absolute;
+  top: 13%;
+  right: 5%;
+}
+@media only screen and (max-width: 992px) {
+  .icon-kanari-2 {
+    top: 13%;
+    right: 1%;
+  }
+}
+@media only screen and (max-width: 810px) {
+  .icon-kanari-2 {
+    width: 250px;
+    top: 12%;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .icon-kanari-2 {
+    width: 120px;
+    top: 16%;
+  }
+}
+
+.icon-kanari-3 {
+  position: absolute;
+  bottom: 30%;
+  left: 3%;
+}
+@media only screen and (max-width: 992px) {
+  .icon-kanari-3 {
+    bottom: 23%;
+    left: 1%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .icon-kanari-3 {
+    bottom: 24%;
+    left: -2%;
+    width: 90px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .icon-kanari-3 {
+    width: 60px;
+    bottom: 22%;
+    left: 0%;
+  }
+}
+
+.icon-kanari-4 {
+  position: absolute;
+  bottom: 40%;
+  right: 3%;
+}
+@media only screen and (max-width: 992px) {
+  .icon-kanari-4 {
+    bottom: 35%;
+    right: 0%;
+  }
+}
+@media only screen and (max-width: 810px) {
+  .icon-kanari-4 {
+    width: 60px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .icon-kanari-4 {
+    bottom: 36%;
+    right: 1%;
+    width: 40px;
+  }
+}
+
+.icon-kanari-6 {
+  position: absolute;
+  bottom: 15%;
+  left: 0;
+}
+@media only screen and (max-width: 810px) {
+  .icon-kanari-6 {
+    bottom: 14%;
+    left: 5%;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .icon-kanari-6 {
+    bottom: 18%;
+    left: 10%;
+    width: 20px;
+  }
+}
+
+.icon-kanari-5 {
+  position: absolute;
+  top: 15%;
+  left: 0;
+}
+@media only screen and (max-width: 992px) {
+  .icon-kanari-5 {
+    width: 90px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .icon-kanari-5 {
+    width: 60px;
+  }
+}
+
+.icon-kanari-7 {
+  position: absolute;
+  top: -5%;
+  right: 5%;
+}
+@media only screen and (max-width: 576px) {
+  .icon-kanari-7 {
+    width: 30px;
+  }
+}
+
+.icon-kanari-8 {
+  position: absolute;
+  top: 35%;
+  right: 5%;
+}
+@media only screen and (max-width: 576px) {
+  .icon-kanari-8 {
+    width: 60px;
+    right: 0;
+  }
+}
+
+.icon-kanari-9 {
+  position: absolute;
+  bottom: 30%;
+  left: 0;
+}
+@media only screen and (max-width: 992px) {
+  .icon-kanari-9 {
+    width: 60px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .icon-kanari-9 {
+    width: 50px;
+  }
+}
+
+.icon-kanari-10 {
+  position: absolute;
+  bottom: 20%;
+  right: 5%;
+}
+@media only screen and (max-width: 992px) {
+  .icon-kanari-10 {
+    right: 2%;
+    width: 90px;
+  }
+}
+.kanari-table {
+  background: #588157;
+}/*# sourceMappingURL=why-kanari.compiled.css.map */

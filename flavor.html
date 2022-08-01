@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/assets/scss/slick.scss" />
+    <link rel="stylesheet" href="/assets/scss/slick-theme.scss" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/global.compiled.css" />
+    <link rel="stylesheet" href="assets/css/flavor.compiled.css" />
+
+    <title>NTH Website - Flavor</title>
+  </head>
+  <body>
+    <div id="flavor">
+      <div class="header mb-5">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <a href="index.html">
+              <img src="assets/images/logo.svg" alt="logo" class="logo" />
+            </a>
+
+            <div class="hamburger-menu">
+              <input id="menu__toggle" type="checkbox" />
+              <label class="menu__btn" for="menu__toggle">
+                <span></span>
+              </label>
+
+              <ul class="menu__box">
+                <a href="index.html">
+                  <img src="assets/images/logo.svg" alt="logo" class="logo mobile" />
+                </a>
+                <li>
+                  <a
+                    href="about-us.html"
+                    class="text-decoration-none menu__item text-brown ms-4 link-mobile"
+                    >about us</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="where-to-buy.html"
+                    class="text-decoration-none menu__item text-brown ms-4 link-mobile"
+                    >where to buy
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="food-service.html"
+                    class="text-decoration-none menu__item text-brown ms-4 link-mobile"
+                    >foodservice</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="flavor.html"
+                    class="text-decoration-none menu__item text-brown ms-4 link-mobile"
+                    >flavors</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="why-kenari.html"
+                    class="text-decoration-none menu__item text-brown ms-4 link-mobile"
+                    >why kenari
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <a href="about-us.html" class="text-decoration-none pxsmall text-white ms-4 link"
+                >about us</a
+              >
+              <a href="where-to-buy.html" class="text-decoration-none pxsmall text-white ms-4 link"
+                >where to buy
+              </a>
+              <a href="food-service.html" class="text-decoration-none pxsmall text-white ms-4 link"
+                >foodservice</a
+              >
+              <a href="flavor.html" class="text-decoration-none pxsmall text-white ms-4 link"
+                >flavors</a
+              >
+              <a href="why-kenari.html" class="text-decoration-none pxsmall text-white ms-4 link"
+                >why kenari
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-150 pb-5">
+        <h1 class="text-center text-darkGray pb-5">Best gelato on earth, for earth</h1>
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-10 mx-auto">
+              <div class="row">
+                <div class="col-sm-4 col-6">
+                  <div class="card-flavor">
+                    <img
+                      src="assets/images/flavor-1.jpg"
+                      alt="ice cream"
+                      data-bs-toggle="modal"
+                      data-bs-target="#chocolate"
+                    />
+                    <div class="food-desc"><p>Chocolate</p></div>
+                  </div>
+                </div>
+                <div class="col-sm-4 col-6">
+                  <div class="card-flavor">
+                    <img
+                      src="assets/images/flavor-2.jpg"
+                      alt="ice cream"
+                      data-bs-toggle="modal"
+                      data-bs-target="#hazelnut"
+                    />
+                    <div class="food-desc"><p>Hazelnut</p></div>
+                  </div>
+                </div>
+                <div class="col-sm-4 col-6">
+                  <div class="card-flavor">
+                    <img
+                      src="assets/images/flavor-3.jpg"
+                      alt="ice cream"
+                      data-bs-toggle="modal"
+                      data-bs-target="#pistachio"
+                    />
+                    <div class="food-desc"><p>Pistachio</p></div>
+                  </div>
+                </div>
+                <div class="col-sm-4 col-6">
+                  <div class="card-flavor">
+                    <img
+                      src="assets/images/caramel-1.jpg"
+                      alt="ice cream"
+                      data-bs-toggle="modal"
+                      data-bs-target="#caramel"
+                    />
+                    <div class="food-desc"><p>Salted Caramel</p></div>
+                  </div>
+                </div>
+                <div class="col-sm-4 col-6">
+                  <div class="card-flavor">
+                    <img
+                      src="assets/images/flavor-5.jpg"
+                      alt="ice cream"
+                      data-bs-toggle="modal"
+                      data-bs-target="#strawberry"
+                    />
+                    <div class="food-desc"><p>Strawberry</p></div>
+                  </div>
+                </div>
+                <div class="col-sm-4 col-6">
+                  <div class="card-flavor">
+                    <img
+                      src="assets/images/flavor-6.jpg"
+                      alt="ice cream"
+                      data-bs-toggle="modal"
+                      data-bs-target="#vanilla"
+                    />
+                    <div class="food-desc"><p>Vanilla</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="text-center text-darkGreen mb-4">
+            We are constantly tinkering with our flavors, so check back often for our latest drop.
+            Have a <br />
+            special request? We’re always up for a challenge.
+          </p>
+
+          <p class="text-center text-darkGreen mb-5">
+            Email us at <br />
+            hello@nthwonder.com <br />
+            and we’ll <br />
+            see what we can do :-P
+          </p>
+        </div>
+        <img src="assets/icons/flavor-1.svg" alt="icon flavor" class="icon-flavor-1" />
+        <img src="assets/icons/flavor-2.svg" alt="icon flavor" class="icon-flavor-2" />
+        <img src="assets/icons/flavor-3.svg" alt="icon flavor" class="icon-flavor-3" />
+        <img src="assets/icons/flavor-4.svg" alt="icon flavor" class="icon-flavor-4" />
+        <img src="assets/icons/flavor-5.svg" alt="icon flavor" class="icon-flavor-5" />
+      </div>
+
+      <div class="footer py-5">
+        <div class="container">
+          <h2 class="h3 text-white text-center mb-md-0 mb-4">
+            Join our fam and get 25% off <br />
+            today!
+          </h2>
+          <div class="row">
+            <div class="col-md-4 order-md-1 order-2 mt-md-0 mt-4">
+              <div class="row">
+                <div class="col-6 mb-4">
+                  <a
+                    href="about-us.html"
+                    class="text-decoration-none pxsmall text-white ms-4 link-footer"
+                    >about us</a
+                  >
+                </div>
+                <div class="col-6 mb-4">
+                  <a
+                    href="where-to-buy.html"
+                    class="text-decoration-none pxsmall text-white ms-4 link-footer"
+                    >where to buy
+                  </a>
+                </div>
+                <div class="col-6 mb-4">
+                  <a
+                    href="flavor.html"
+                    class="text-decoration-none pxsmall text-white ms-4 link-footer"
+                    >foodservice</a
+                  >
+                </div>
+                <div class="col-6 mb-4">
+                  <a
+                    href="flavor.html"
+                    class="text-decoration-none pxsmall text-white ms-4 link-footer"
+                    >flavors</a
+                  >
+                </div>
+                <div class="col-6 mb-4">
+                  <a
+                    href="why-kenari.html"
+                    class="text-decoration-none pxsmall text-white ms-4 link-footer"
+                    >why kenari
+                  </a>
+                </div>
+                <div class="col-6 mb-4">
+                  <a
+                    href="contact-us.html"
+                    class="text-decoration-none pxsmall text-white ms-4 link-footer"
+                    >contact us
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-4 order-md-2 order-1 d-flex flex-column justify-content-center align-items-center"
+            >
+              <input
+                type="email"
+                class="form-control mb-4"
+                id="email"
+                aria-describedby="emailHelp"
+              />
+              <button class="btn btn-lightgreen px-4 d-block">Submit</button>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <p class="text-white pxsmall link-footer">&copy; 2022 Nth Wonder</p>
+          </div>
+        </div>
+      </div>
+      <div class="whatsapp">
+        <a href="https://api.whatsapp.com/message/VCO2TWDPBOMPI1?autoload=1&app_absent=0">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- chocolate -->
+    <div class="modal fade" id="chocolate" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <i class="fa-solid fa-xmark close-flavor" data-bs-dismiss="modal"></i>
+            <div class="row mx-0">
+              <div class="col-md-5 p-0">
+                <div class="flavor-slick" style="background-color: #9cff93">
+                  <img src="assets/images/chocolate-1.jpg" alt="img popup" />
+                  <img src="assets/images/chocolate-2.jpg" alt="img popup" />
+                  <div class="slide-table">
+                    <img src="assets/images/chocolate-detail.png" alt="img popup" class="w-75" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-7 p-0">
+                <div style="background-color: #84c1a3" class="p-5 h-100">
+                  <h2 class="mb-4">Chocolate</h2>
+                  <div class="mb-4">
+                    <textarea
+                      class="form-control"
+                      id="description"
+                      placeholder="description"
+                      rows="3"
+                    ></textarea>
+                  </div>
+                  <div class="mb-4">
+                    <textarea
+                      class="form-control"
+                      id="ingredients"
+                      placeholder="ingredients"
+                      rows="2"
+                    ></textarea>
+                  </div>
+                  <a
+                    href="https://www.tokopedia.com/nthwonder/chocolate-non-dairy-gelato-by-nth-wonder"
+                    class="btn btn-flavor ms-auto d-flex"
+                    style="width: fit-content"
+                    target="_blank"
+                    >Buy me</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- hazelnut -->
+    <div class="modal fade" id="hazelnut" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <i class="fa-solid fa-xmark close-flavor" data-bs-dismiss="modal"></i>
+            <div class="row mx-0">
+              <div class="col-md-5 p-0">
+                <div class="flavor-slick" style="background-color: #9cff93">
+                  <img src="assets/images/hazelnut-1.jpg" alt="img popup" />
+                  <img src="assets/images/hazelnut-2.jpg" alt="img popup" />
+                  <div class="slide-table">
+                    <img src="assets/images/hazelnut-3.png" alt="img popup" class="w-75" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-7 p-0">
+                <div style="background-color: #84c1a3" class="p-5 h-100">
+                  <h2 class="mb-4">Hazelnut</h2>
+                  <div class="mb-4">
+                    <textarea
+                      class="form-control"
+                      id="description"
+                      placeholder="description"
+                      rows="3"
+                    ></textarea>
+                  </div>
+                  <div class="mb-4">
+                    <textarea
+                      class="form-control"
+                      id="ingredients"
+                      placeholder="ingredients"
+                      rows="2"
+                    ></textarea>
+                  </div>
+                  <a
+                    href="https://www.tokopedia.com/nthwonder/hazelnut-non-dairy-gelato-by-nth-wonder-full-pint"
+                    class="btn btn-flavor ms-auto d-flex"
+                    style="width: fit-content"
+                    target="_blank"
+                    >Buy me</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- pistachio -->
+    <div class="modal fade" id="pistachio" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <i class="fa-solid fa-xmark close-flavor" data-bs-dismiss="modal"></i>
+            <div class="row mx-0">
+              <div class="col-md-5 p-0">
+                <div class="flavor-slick" style="background-color: #9cff93">
+                  <img src="assets/images/pistachio-1.jpg" alt="img popup" />
+                  <img src="assets/images/pistachio-2.jpg" alt="img popup" />
+                  <div class="slide-table">
+                    <img src="assets/images/pistachio-detail.png" alt="img popup" class="w-75" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-7 p-0">
+                <div style="background-color: #84c1a3" class="p-5 h-100">
+                  <h2 class="mb-4">Pistachio</h2>
+                  <div class="mb-4">
+                    <textarea
+                      class="form-control"
+                      id="description"
+                      placeholder="description"
+                      rows="3"
+                    ></textarea>
+                  </div>
+                  <div class="mb-4">
+                    <textarea
+                      class="form-control"
+                      id="ingredients"
+                      placeholder="ingredients"
+                      rows="2"
+                    ></textarea>
+                  </div>
+                  <a
+                    href="https://www.tokopedia.com/nthwonder/pistachio-non-dairy-gelato-by-nth-wonder"
+                    class="btn btn-flavor ms-auto d-flex"
+                    style="width: fit-content"
+                    target="_blank"
+                    >Buy me</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- caramel -->
+    <div class="modal fade" id="caramel" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <i class="fa-solid fa-xmark close-flavor" data-bs-dismiss="modal"></i>
+            <div class="row mx-0">
+              <div class="col-md-5 p-0">
+                <div class="flavor-slick" style="background-color: #9cff93">
+                  <img src="assets/images/caramel-1.jpg" alt="img popup" />
+                  <img src="assets/images/caramel-2.jpg" alt="img popup" />
+                  <img src="assets/images/caramel-3.jpg" alt="img popup" />
+                </div>
+              </div>
+              <div class="col-md-7 p-0">
+                <div style="background-color: #84c1a3" class="p-5 h-100">
+                  <h2 class="mb-4">Caramel</h2>
+                  <div class="mb-4">
+                    <textarea
+                      class="form-control"
+                      id="description"
+                      placeholder="description"
+                      rows="3"
+                    ></textarea>
+                  </div>
+                  <div class="mb-4">
+                    <textarea
+                      class="form-control"
+                      id="ingredients"
+                      placeholder="ingredients"
+                      rows="2"
+                    ></textarea>
+                  </div>
+                  <a
+                    href="https://www.tokopedia.com/nthwonder/salted-caramel-dessert-gelato-by-nth-wonder-full-pint"
+                    class="btn btn-flavor ms-auto d-flex"
+                    style="width: fit-content"
+                    target="_blank"
+                    >Buy me</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- strawberry -->
+    <div class="modal fade" id="strawberry" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <i class="fa-solid fa-xmark close-flavor" data-bs-dismiss="modal"></i>
+            <div class="row mx-0">
+              <div class="col-md-5 p-0">
+                <div class="flavor-slick" style="background-color: #9cff93">
+                  <img src="assets/images/strawberry-1.jpg" alt="img popup" />
+                  <img src="assets/images/strawberry-2.jpg" alt="img popup" />
+                  <div class="slide-table">
+                    <img src="assets/images/strawberry-detail.png" alt="img popup" class="w-75" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-7 p-0">
+                <div style="background-color: #84c1a3" class="p-5 h-100">
+                  <h2 class="mb-4">Strawberry</h2>
+                  <div class="mb-4">
+                    <textarea
+                      class="form-control"
+                      id="description"
+                      placeholder="description"
+                      rows="3"
+                    ></textarea>
+                  </div>
+                  <div class="mb-4">
+                    <textarea
+                      class="form-control"
+                      id="ingredients"
+                      placeholder="ingredients"
+                      rows="2"
+                    ></textarea>
+                  </div>
+                  <a
+                    href="https://www.tokopedia.com/nthwonder/strawberry-non-dairy-gelato-by-nth-wonder"
+                    class="btn btn-flavor ms-auto d-flex"
+                    style="width: fit-content"
+                    target="_blank"
+                    >Buy me</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- vanilla -->
+    <div class="modal fade" id="vanilla" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <i class="fa-solid fa-xmark close-flavor" data-bs-dismiss="modal"></i>
+            <div class="row mx-0">
+              <div class="col-md-5 p-0">
+                <div class="flavor-slick" style="background-color: #9cff93">
+                  <img src="assets/images/vanilla-1.jpg" alt="img popup" />
+                  <img src="assets/images/vanilla-2.jpg" alt="img popup" />
+                  <div class="slide-table">
+                    <img src="assets/images/vanilla-detail.png" alt="img popup" class="w-75" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-7 p-0">
+                <div style="background-color: #84c1a3" class="p-5 h-100">
+                  <h2 class="mb-4">Vanilla</h2>
+                  <div class="mb-4">
+                    <textarea
+                      class="form-control"
+                      id="description"
+                      placeholder="description"
+                      rows="3"
+                    ></textarea>
+                  </div>
+                  <div class="mb-4">
+                    <textarea
+                      class="form-control"
+                      id="ingredients"
+                      placeholder="ingredients"
+                      rows="2"
+                    ></textarea>
+                  </div>
+                  <a
+                    href="https://www.tokopedia.com/nthwonder/vanilla-non-dairy-gelato-by-nth-wonder"
+                    class="btn btn-flavor ms-auto d-flex"
+                    style="width: fit-content"
+                    target="_blank"
+                    >Buy me</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+      integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="assets/js/flavor-slick.js"></script>
+    <script src="assets/js/global.js"></script>
+  </body>
+</html>

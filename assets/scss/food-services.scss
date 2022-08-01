@@ -1,0 +1,122 @@
+#food-services {
+  background: #344e41;
+}
+
+#food-banner {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url("/assets/images/foodservice.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  @media only screen and (max-width: 810px) {
+    height: 50vh;
+  }
+  @media only screen and (max-width: 768px) {
+    height: 100vh;
+  }
+  @media only screen and (max-width: 414px) {
+    height: 50vh;
+  }
+}
+.banner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.list-service {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  p {
+    width: 80%;
+    margin-top: -10px;
+    @media only screen and (max-width: 576px) {
+      margin-top: 0px;
+    }
+  }
+}
+
+.food-1 {
+  position: absolute;
+  left: 4%;
+  bottom: -10%;
+  @media only screen and (max-width: 812px) {
+    width: 60px;
+  }
+  @media only screen and (max-width: 576px) {
+    margin-top: 0px;
+  }
+  @media only screen and (max-width: 414px) {
+    width: 40px;
+  }
+}
+
+.food-2 {
+  position: absolute;
+  right: -4%;
+  bottom: -70%;
+  @media only screen and (max-width: 812px) {
+    width: 60px;
+    bottom: -50%;
+  }
+  @media only screen and (max-width: 414px) {
+    width: 40px;
+    bottom: -10%;
+    right: 4%;
+  }
+}
+
+.food-3 {
+  position: absolute;
+  left: 0%;
+  top: 5%;
+  @media only screen and (max-width: 812px) {
+    width: 60px;
+    left: -3%;
+    top: 1%;
+  }
+  @media only screen and (max-width: 576px) {
+    left: 0%;
+  }
+  @media only screen and (max-width: 414px) {
+    width: 40px;
+  }
+}
+
+.food-4 {
+  position: absolute;
+  right: 0%;
+  top: 5%;
+  @media only screen and (max-width: 812px) {
+    width: 60px;
+    right: -2%;
+    top: 1%;
+  }
+  @media only screen and (max-width: 576px) {
+    right: 0%;
+  }
+  @media only screen and (max-width: 414px) {
+    width: 40px;
+  }
+}
+
+.food-5 {
+  position: absolute;
+  left: 30%;
+  bottom: 15%;
+  width: 90px;
+  @media only screen and (max-width: 812px) {
+    width: 60px;
+  }
+  @media only screen and (max-width: 576px) {
+    width: 40px;
+  }
+}
