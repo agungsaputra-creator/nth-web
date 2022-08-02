@@ -80,6 +80,13 @@
     width: 60px;
   }
 }
+@media only screen and (max-width: 414px) {
+  .icon-flavor-1 {
+    left: 2%;
+    width: 40px;
+    top: 14%;
+  }
+}
 
 .icon-flavor-2 {
   position: absolute;
@@ -90,6 +97,12 @@
   .icon-flavor-2 {
     top: 15%;
     width: 60px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .icon-flavor-2 {
+    top: 13%;
+    width: 40px;
   }
 }
 
@@ -107,16 +120,16 @@
 }
 @media only screen and (max-width: 576px) {
   .icon-flavor-3 {
-    top: 62%;
+    top: 56%;
     left: 3%;
     width: 70px;
   }
 }
 @media only screen and (max-width: 414px) {
   .icon-flavor-3 {
-    top: 71%;
-    left: 3%;
-    width: 60px;
+    top: 64%;
+    left: 6%;
+    width: 40px;
   }
 }
 

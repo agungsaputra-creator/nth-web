@@ -28,10 +28,14 @@
   @media only screen and (max-width: 810px) {
     width: 110px;
   }
+  @media only screen and (max-width: 576px) {
+    width: 80px;
+    top: 12%;
+  }
   @media only screen and (max-width: 414px) {
     width: 60px;
     top: 16%;
-    left: 13%;
+    left: 3%;
   }
 }
 .icon-kanari-2 {
@@ -46,9 +50,14 @@
     width: 250px;
     top: 12%;
   }
+  @media only screen and (max-width: 576px) {
+    width: 150px;
+    top: 18%;
+    right: 5%;
+  }
   @media only screen and (max-width: 414px) {
     width: 120px;
-    top: 16%;
+    top: 8%;
   }
 }
 .icon-kanari-3 {
@@ -64,8 +73,11 @@
     left: -2%;
     width: 90px;
   }
+  @media only screen and (max-width: 576px) {
+    width: 70px;
+  }
   @media only screen and (max-width: 414px) {
-    width: 60px;
+    width: 50px;
     bottom: 22%;
     left: 0%;
   }
@@ -96,8 +108,8 @@
     left: 5%;
   }
   @media only screen and (max-width: 414px) {
-    bottom: 18%;
-    left: 10%;
+    bottom: 9%;
+    left: 9%;
     width: 20px;
   }
 }
@@ -111,6 +123,10 @@
   @media only screen and (max-width: 576px) {
     width: 60px;
   }
+  @media only screen and (max-width: 414px) {
+    width: 60px;
+    top: -18%;
+  }
 }
 .icon-kanari-7 {
   position: absolute;
@@ -121,6 +137,10 @@
   }
   @media only screen and (max-width: 576px) {
     width: 30px;
+  }
+  @media only screen and (max-width: 414px) {
+    width: 30px;
+    top: -11%;
   }
 }
 .icon-kanari-8 {
@@ -135,6 +155,11 @@
     width: 60px;
     right: 0;
   }
+  @media only screen and (max-width: 414px) {
+    width: 40px;
+    top: unset;
+    bottom: 28%;
+  }
 }
 .icon-kanari-9 {
   position: absolute;
@@ -146,6 +171,11 @@
   @media only screen and (max-width: 576px) {
     width: 50px;
   }
+  @media only screen and (max-width: 414px) {
+    width: 40px;
+    bottom: -15%;
+    left: 10%;
+  }
 }
 .icon-kanari-10 {
   position: absolute;
@@ -155,10 +185,13 @@
     right: 2%;
     width: 90px;
   }
+  @media only screen and (max-width: 576px) {
+    width: 70px;
+  }
   @media only screen and (max-width: 414px) {
-    // bottom: 18%;
-    // left: 10%;
-    // width: 20px;
+    width: 60px;
+    bottom: -8%;
+    right: 11%;
   }
 }
 

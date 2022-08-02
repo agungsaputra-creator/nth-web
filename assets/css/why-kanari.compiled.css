@@ -35,11 +35,17 @@
     width: 110px;
   }
 }
+@media only screen and (max-width: 576px) {
+  .icon-kanari-1 {
+    width: 80px;
+    top: 12%;
+  }
+}
 @media only screen and (max-width: 414px) {
   .icon-kanari-1 {
     width: 60px;
     top: 16%;
-    left: 13%;
+    left: 3%;
   }
 }
 
@@ -60,10 +66,17 @@
     top: 12%;
   }
 }
+@media only screen and (max-width: 576px) {
+  .icon-kanari-2 {
+    width: 150px;
+    top: 18%;
+    right: 5%;
+  }
+}
 @media only screen and (max-width: 414px) {
   .icon-kanari-2 {
     width: 120px;
-    top: 16%;
+    top: 8%;
   }
 }
 
@@ -85,9 +98,14 @@
     width: 90px;
   }
 }
+@media only screen and (max-width: 576px) {
+  .icon-kanari-3 {
+    width: 70px;
+  }
+}
 @media only screen and (max-width: 414px) {
   .icon-kanari-3 {
-    width: 60px;
+    width: 50px;
     bottom: 22%;
     left: 0%;
   }
@@ -130,8 +148,8 @@
 }
 @media only screen and (max-width: 414px) {
   .icon-kanari-6 {
-    bottom: 18%;
-    left: 10%;
+    bottom: 9%;
+    left: 9%;
     width: 20px;
   }
 }
@@ -151,6 +169,12 @@
     width: 60px;
   }
 }
+@media only screen and (max-width: 414px) {
+  .icon-kanari-5 {
+    width: 60px;
+    top: -18%;
+  }
+}
 
 .icon-kanari-7 {
   position: absolute;
@@ -160,6 +184,12 @@
 @media only screen and (max-width: 576px) {
   .icon-kanari-7 {
     width: 30px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .icon-kanari-7 {
+    width: 30px;
+    top: -11%;
   }
 }
 
@@ -172,6 +202,13 @@
   .icon-kanari-8 {
     width: 60px;
     right: 0;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .icon-kanari-8 {
+    width: 40px;
+    top: unset;
+    bottom: 28%;
   }
 }
 
@@ -190,6 +227,13 @@
     width: 50px;
   }
 }
+@media only screen and (max-width: 414px) {
+  .icon-kanari-9 {
+    width: 40px;
+    bottom: -15%;
+    left: 10%;
+  }
+}
 
 .icon-kanari-10 {
   position: absolute;
@@ -202,6 +246,19 @@
     width: 90px;
   }
 }
+@media only screen and (max-width: 576px) {
+  .icon-kanari-10 {
+    width: 70px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .icon-kanari-10 {
+    width: 60px;
+    bottom: -8%;
+    right: 11%;
+  }
+}
+
 .kanari-table {
   background: #588157;
 }/*# sourceMappingURL=why-kanari.compiled.css.map */
