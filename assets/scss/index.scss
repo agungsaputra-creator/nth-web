@@ -13,7 +13,7 @@
     height: 100vh;
   }
   @media only screen and (max-width: 414px) {
-    height: 50vh;
+    height: 60vh;
   }
 
   .banner-content {
@@ -31,7 +31,7 @@
       justify-content: space-between;
       margin-top: -30px;
       @media only screen and (max-width: 768px) {
-        width: 40%;
+        width: 50%;
       }
       @media only screen and (max-width: 414px) {
         width: 70%;
@@ -39,9 +39,14 @@
 
       .gelato-1,
       .gelato-2 {
-        width: 120px;
         height: auto;
         object-fit: contain;
+      }
+
+      .gelato-1 {
+        width: 100px;
+        -ms-transform: rotate(-8deg);
+        transform: rotate(-8deg);
         @media only screen and (max-width: 992px) {
           width: 80px;
         }
@@ -50,14 +55,16 @@
         }
       }
 
-      .gelato-1 {
-        -ms-transform: rotate(-20deg);
-        transform: rotate(-20deg);
-      }
-
       .gelato-2 {
-        -ms-transform: rotate(20deg);
-        transform: rotate(20deg);
+        width: 110px;
+        -ms-transform: rotate(8deg);
+        transform: rotate(8deg);
+        @media only screen and (max-width: 992px) {
+          width: 90px;
+        }
+        @media only screen and (max-width: 768px) {
+          width: 70px;
+        }
       }
     }
 
@@ -78,9 +85,12 @@
   background-image: url("/assets/images/home-pints.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   @media only screen and (max-width: 992px) {
     height: auto;
+  }
+  @media only screen and (max-width: 576px) {
+    background-position: 81% 0;
   }
 }
 

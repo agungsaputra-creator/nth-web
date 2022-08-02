@@ -164,6 +164,10 @@ p,
   color: #414833;
 }
 
+.shadow-white {
+  text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.51);
+}
+
 .bg-brown {
   background-color: #936639 !important;
   &::before {
