@@ -119,6 +119,45 @@
   }
 }
 
+.home-trees {
+  width: 100%;
+  height: 870px;
+  position: relative;
+  background-image: url("/assets/images/home-trees.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  @media only screen and (max-width: 992px) {
+    height: 650px;
+  }
+  @media only screen and (max-width: 576px) {
+    height: 550px;
+  }
+  h1 {
+    padding-bottom: 100px;
+    @media only screen and (max-width: 768px) {
+      padding-bottom: 70px;
+    }
+    @media only screen and (max-width: 576px) {
+      padding-bottom: 50px;
+    }
+  }
+  p {
+    padding-bottom: 80px;
+    @media only screen and (max-width: 768px) {
+      padding-bottom: 50px;
+    }
+    @media only screen and (max-width: 576px) {
+      padding-bottom: 30px;
+    }
+  }
+  .trees-animation {
+    @media only screen and (max-width: 768px) {
+      width: 100%;
+    }
+  }
+}
+
 .testimony {
   background-color: #a3b18a;
 
@@ -139,6 +178,9 @@
     background-position: center;
     border-radius: 42px;
     padding: 60px 0;
+    @media only screen and (max-width: 768px) {
+      border-radius: 30px;
+    }
     .title-modal {
       font-size: 65px;
       text-align: center;
@@ -159,5 +201,29 @@
         }
       }
     }
+  }
+}
+
+.trees-icon-1 {
+  width: 80px;
+  position: absolute;
+  top: 0;
+  right: 42%;
+  @media only screen and (max-width: 768px) {
+    width: 0;
+  }
+}
+
+.tress-icon-2 {
+  position: absolute;
+  bottom: 3%;
+  right: 30%;
+  height: 72px;
+  @media only screen and (max-width: 992px) {
+    height: 52px;
+  }
+  @media only screen and (max-width: 576px) {
+    height: 42px;
+    right: 5%;
   }
 }

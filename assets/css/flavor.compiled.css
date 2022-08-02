@@ -270,4 +270,13 @@
   .flavor-slick .slide-table {
     height: 427px !important;
   }
+}
+
+.description {
+  border: 5px solid #fffdfd;
+  border-radius: 20px;
+  padding: 10px;
+}
+.description p {
+  font-size: 16px;
 }/*# sourceMappingURL=flavor.compiled.css.map */

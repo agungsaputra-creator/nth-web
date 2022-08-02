@@ -48,7 +48,7 @@ h6,
   font-family: "RobotoSlab";
   font-weight: 400;
   margin: unset;
-  line-height: 1.4;
+  line-height: 1;
 }
 
 h1,
@@ -112,6 +112,10 @@ p,
 
 .pb-150 {
   padding-bottom: 150px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
 }
 
 .font-light {
@@ -448,6 +452,9 @@ body {
   .whatsapp {
     width: 60px;
     height: 60px;
+  }
+  .testimony-title {
+    font-size: 30px !important;
   }
 }
 @media only screen and (max-width: 414px) {
