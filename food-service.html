@@ -198,7 +198,14 @@
                 <textarea class="form-control" id="message" rows="5"></textarea>
               </div>
               <div class="col-12 mx-auto my-5">
-                <button class="btn btn-cream px-5 py-2 d-block mx-auto fw-bold">Submit</button>
+                <button
+                  type="button"
+                  class="btn btn-cream px-5 py-2 d-block mx-auto fw-bold"
+                  data-bs-toggle="modal"
+                  data-bs-target="#submit"
+                >
+                  Submit
+                </button>
               </div>
             </form>
           </div>
@@ -266,6 +273,18 @@
         <a href="https://api.whatsapp.com/message/VCO2TWDPBOMPI1?autoload=1&app_absent=0">
           <i class="fa-brands fa-whatsapp"></i>
         </a>
+      </div>
+    </div>
+
+    <!-- submit -->
+    <div class="modal fade" id="submit" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-body modal-foodservices">
+            <i class="fa-solid fa-xmark close-flavor" data-bs-dismiss="modal"></i>
+            <h1 class="title-modal font-bold">Thanks for reaching out! We’ll be in touch soon</h1>
+          </div>
+        </div>
       </div>
     </div>
 

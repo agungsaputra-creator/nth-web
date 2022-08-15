@@ -5,7 +5,7 @@
 
 .card-flavor {
   position: relative;
-  height: auto;
+  height: 335px;
   margin: auto;
   width: 270px;
   display: flex;
@@ -16,18 +16,21 @@
 @media only screen and (max-width: 992px) {
   .card-flavor {
     width: 240px;
+    height: 298px;
   }
 }
 @media only screen and (max-width: 810px) {
   .card-flavor {
     width: 180px;
     margin-bottom: 30px;
+    height: 223px;
   }
 }
 @media only screen and (max-width: 576px) {
   .card-flavor {
     width: 130px;
     margin-bottom: 30px;
+    height: 161px;
   }
 }
 .card-flavor img {
@@ -35,6 +38,8 @@
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 47px;
+  -o-object-position: bottom;
+     object-position: bottom;
 }
 @media only screen and (max-width: 810px) {
   .card-flavor img {
@@ -279,4 +284,21 @@
 }
 .description p {
   font-size: 16px;
+}
+
+@media only screen and (max-width: 992px) {
+  .modal-home-mobile {
+    max-width: 90% !important;
+  }
+}
+
+.slide-table.slick-slide {
+  height: 605px !important;
+}
+
+.slick-slide.slick-current.slick-active {
+  width: 475px;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=flavor.compiled.css.map */
