@@ -130,8 +130,12 @@
   @media only screen and (max-width: 992px) {
     height: 650px;
   }
+  @media only screen and (max-width: 768px) {
+    background-position: 100%;
+  }
   @media only screen and (max-width: 576px) {
     height: 550px;
+    background-position: 60%;
   }
   h1 {
     padding-bottom: 100px;
@@ -160,10 +164,36 @@
 
 .testimony {
   background-color: #a3b18a;
+  position: relative;
 
   .testy-animation {
     @media only screen and (max-width: 768px) {
       width: 30%;
+    }
+  }
+  .testy-animation-1 {
+    transform: scaleX(-1);
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+    @media only screen and (max-width: 768px) {
+      width: 10%;
+    }
+    @media only screen and (max-width: 576px) {
+      width: 15%;
+      left: 10%;
+    }
+  }
+  .testy-animation-2 {
+    position: absolute;
+    bottom: 10%;
+    right: 20%;
+    @media only screen and (max-width: 768px) {
+      width: 10%;
+    }
+    @media only screen and (max-width: 576px) {
+      width: 15%;
+      right: 10%;
     }
   }
 }

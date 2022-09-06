@@ -355,6 +355,27 @@ body {
   background-position: center;
 }
 
+.instagram {
+  background-color: #c32aa3;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 20%;
+  right: 3%;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  cursor: pointer;
+  color: #fff;
+  display: flex;
+}
+.instagram .fa-whatsapp {
+  font-size: 30px;
+}
+
 .whatsapp {
   background-color: #25d366;
   width: 70px;
@@ -364,18 +385,33 @@ body {
   justify-content: center;
   align-items: center;
   position: fixed;
-  bottom: 5%;
+  bottom: 9%;
   right: 3%;
   box-shadow: 2px 2px 3px #999;
   z-index: 100;
   cursor: pointer;
-}
-.whatsapp a {
   color: #fff;
   display: flex;
 }
-.whatsapp a .fa-whatsapp {
-  font-size: 35px;
+.whatsapp .fa-whatsapp {
+  font-size: 30px;
+}
+
+.ice-matcha {
+  -o-object-position: 0 -105px !important;
+     object-position: 0 -105px !important;
+}
+@media only screen and (max-width: 810px) {
+  .ice-matcha {
+    -o-object-position: 0 -75px !important;
+       object-position: 0 -75px !important;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .ice-matcha {
+    -o-object-position: 0 -55px !important;
+       object-position: 0 -55px !important;
+  }
 }
 
 .close-flavor {
@@ -449,7 +485,8 @@ body {
   .modal-dialog {
     max-width: 100%;
   }
-  .whatsapp {
+  .whatsapp,
+.instagram {
     width: 60px;
     height: 60px;
   }
